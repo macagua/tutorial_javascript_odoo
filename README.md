@@ -1,12 +1,6 @@
 # tutorial_javascript_odoo
 
-These modules are part of the [Odoo JavaScript Programming Tutorial](https://en.ngasturi.id/?s=javascript)s.
-
-- [Odoo JavaScript Programming Tutorial (Part One) – Create Widget View](https://en.ngasturi.id/2021/04/24/odoo-javascript-programming-tutorial-part-one-create-widget-view/).
-
-- [Odoo JavaScript Programming Tutorial (Part Two) – Widget Logic](https://en.ngasturi.id/2021/04/26/odoo-javascript-programming-tutorial-part-two-widget-logic/).
-
-- [Odoo JavaScript Programming Tutorial (Part Three) – Use of jQuery](https://en.ngasturi.id/2021/05/09/odoo-javascript-programming-tutorial-part-three-use-of-jquery/).
+These modules are part of the [Odoo JavaScript Programming Tutorial](docs/index.md).
 
 ## Tested
 
