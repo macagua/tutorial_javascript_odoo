@@ -18,7 +18,7 @@ There are some Addon Screenshots:
 
 ### Create Widget View - Part One
 
-![Create Widget View - Part One](./static/description/tutorial_javascript_part_1.png "Create Widget View - Part One")
+![Create Widget View - Part One](./static/description/an_odoo_widget_view.png "Create Widget View - Part One")
 
 ## Copyright
 

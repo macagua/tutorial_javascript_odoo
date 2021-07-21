@@ -16,13 +16,9 @@ These modules are part of the [Odoo JavaScript Programming Tutorial](https://en.
 
 There are some Addon Screenshots:
 
-### Odoo Javascript Hello World - Part One
-
-![Odoo Javascript Hello World - Part One](./part-one/static/description/odoo_javascript_hello_world.png "Odoo Javascript Hello World - Part One")
-
 ### Create Widget View - Part One
 
-![Create Widget View - Part One](./part-one/static/description/tutorial_javascript_part_1.png "Create Widget View - Part One")
+![Create Widget View - Part One](./part-one/static/description/an_odoo_widget_view.png "Create Widget View - Part One")
 
 ### Widget Logic - Part Two
 
