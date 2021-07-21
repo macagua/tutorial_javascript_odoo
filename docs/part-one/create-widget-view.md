@@ -1,5 +1,4 @@
-Odoo JavaScript Programming Tutorial (Part One) -- Create Widget View
-=====================================================================
+# Odoo JavaScript Programming Tutorial (Part One) -- Create Widget View
 
 As a web-based application, for programmers who have worked on web
 applications before, odoo sometimes feels a bit strange. Because we
@@ -247,10 +246,12 @@ service and refresh the browser.
 This is the first part of the javascript programming tutorial in odoo.
 Hopefully, this is useful for you.
 
-[Download the Source Code](https://github.com/znry27/ngasturi-blog-english/tree/master/tutorial_javascript_odoo/part_one/tutorial_javascript)
+## Source Code
+
+-   [Download the Source Code](https://github.com/znry27/ngasturi-blog-english/tree/master/tutorial_javascript_odoo/part_one/tutorial_javascript).
 
 ## References
 
 -   [Ngasturi Blog](https://en.ngasturi.id/).
--   [[Odoo JavaScript Programming Tutorial (Part One) -- Create Widget View, April 24, 2021](https://en.ngasturi.id/2021/04/24/odoo-javascript-programming-tutorial-part-one-create-widget-view/)].
+-   [Odoo JavaScript Programming Tutorial (Part One) -- Create Widget View, April 24, 2021](https://en.ngasturi.id/2021/04/24/odoo-javascript-programming-tutorial-part-one-create-widget-view/).
 

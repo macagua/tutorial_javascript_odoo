@@ -14,7 +14,11 @@ This module is part of [Odoo JavaScript Programming Tutorial](https://en.ngastur
 
 There are some Addon Screenshots:
 
-### Create Widget View - Part I
+### Odoo Javascript Hello World - Part One
 
-![Create Widget View - Part I](./part-one/static/description/tutorial_javascript_part_1.png "Create Widget View - Part I")
+![Odoo Javascript Hello World - Part One](./part-one/static/description/odoo_javascript_hello_world.png "Odoo Javascript Hello World - Part One")
+
+### Create Widget View - Part One
+
+![Create Widget View - Part One](./part-one/static/description/tutorial_javascript_part_1.png "Create Widget View - Part One")
 
