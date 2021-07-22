@@ -12,7 +12,7 @@ There are some Addon Screenshots:
 
 ### Create Widget View - Part One
 
-![Create Widget View - Part One](./part-one/static/description/an_odoo_widget_view.png "Create Widget View - Part One")
+![Create Widget View - Part One](./part-one/tutorial_javascript_odoo/static/description/an_odoo_widget_view.png "Create Widget View - Part One")
 
 ### Widget Logic - Part Two
 
