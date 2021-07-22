@@ -14,7 +14,7 @@ are still on the same page.
 First, let's add a new button to the widget that we have created in the
 second part.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <template>
 
@@ -55,7 +55,7 @@ When write a jquery event, for example the click event on a button with
 the **btn-copy** class like in the code above, I don't recommend using
 the **\$('.btn-copy').click()** code like in the code below.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator
@@ -72,7 +72,7 @@ code above to all elements. This does not mean that the code
 **\$(element).click()** cannot be used, because the code below will be
 executed smoothly.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator
@@ -90,7 +90,7 @@ save button** message will be displayed.
 The best way to add a jquery event to a widget is to use the
 **this.\$el.find(element).click()**, as shown in the code below.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator
@@ -121,7 +121,7 @@ created so that the form view will be like the image below.
 Then in the jquery click event that we have created, add the
 **console.log** command as shown in the code below.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator
@@ -169,7 +169,7 @@ Next, let's test it by moving the console.log code above in another
 method, for example when the user clicks the **+** button as shown in
 the code below.
 
-```
+```javascript
 btn_plus_action: function(){
     console.log(this);
     var new_value = this.value + this.step;
@@ -192,7 +192,7 @@ From the picture above, the input element of an integer field has a
 **name** attribute with the same value as the field name. So that we can
 access the value of that field with a jquery code like this.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator
@@ -213,7 +213,7 @@ directly, like in the **self.recordData.field\_three = 3000;** code, but
 we must call the **self.trigger\_up('field\_changed', values)** method
 like in the code below.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator

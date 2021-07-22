@@ -9,7 +9,7 @@ part.
 To follow this tutorial make sure you have created a field with the type
 of **integer** like in the code below.
 
-```
+```javascript
 field_one = fields.Integer('Field One')
 ```
 
@@ -29,7 +29,7 @@ part of this tutorial series to display two buttons ( **-- and +** ) and
 an input field that disabled in **edit** mode. Then only displays the
 value in **readonly** mode, without buttons and input field.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <template>
 
@@ -62,7 +62,7 @@ In **edit** mode it will look like the image below.
 Then in the **widget\_one.js** file let's add an event for each button,
 like in the code below.
 
-```
+```javascript
 var WidgetOne = AbstractField.extend({
     template: 'WidgetOneTemplate', // fill with the template name that will be rendered by odoo
     events: { // list of event, like jquery event
@@ -87,7 +87,7 @@ that they are written in reverse. In jquery if we want to write the
 **click** event on a button with the **btn-minus** class we can write it
 like this.
 
-```
+```javascript
 $('.btn-minus.').click(btn_minus_action);
 ```
 
@@ -135,7 +135,7 @@ There are several ways to change the appearance of the user interface,
 the easiest way is to use the qweb. So let's import the **qweb** then
 override the **\_render** method like in the code below.
 
-```
+```javascript
 odoo.define('tutorial_javascript.widget_one', function (require) {
 "use strict";
     // import the required object to create a widget
@@ -191,7 +191,7 @@ parameter, the key of the object we set to **widget** because in the
 display the value of the field that uses the widget that we create. We
 can change the name of this key, for example, like in the code below.
 
-```
+```javascript
 this.$el.html($(qweb.render(this.template, {'data': this})));
 ```
 
@@ -221,7 +221,7 @@ this tutorial we will use the **options** attribute to detect whether
 the user configure the addition or subtraction value or not. If the user
 configure it in the options attribute like in the code below.
 
-```
+```xml
 <field name="field_one" widget="widget_one" options="{'step': 1000}"/>
 ```
 
@@ -230,7 +230,7 @@ will be increased or decreased by the step value configured by the user
 in the xml file, which is 1000. But if the user does not configure it,
 like in the code below.
 
-```
+```xml
 <field name="field_one" widget="widget_one"/>
 ```
 
@@ -241,7 +241,7 @@ We can save the step value as a property of the widget, then we can use
 the **init** method which will be called first automatically by odoo to
 detect whether the user configures the step value or not.
 
-```
+```javascript
 odoo.define('tutorial_javascript.widget_one', function (require) {
 "use strict";
     // import the required object to create a widget
@@ -310,14 +310,14 @@ Then what if we want to add the thousands separator ? To format currency?
 We can use the **web.field\_utils** object to format currencies.
 Therefore, let's import it first.
 
-```
+```javascript
 var field_utils = require('web.field_utils');
 ```
 
 Then let's change the **\_render** method to include the formatted value
 with a thousand separator.
 
-```
+```javascript
 _render: function () {
     // re-render the view if the field value is changed
     // format the value to include the thousand separator
@@ -330,7 +330,7 @@ Then let's modify the **WidgetOneTemplate** template to display the
 formatted value with a thousand separator, instead of the original
 value.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <template>
 

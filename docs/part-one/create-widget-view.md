@@ -43,7 +43,7 @@ widget code, we should test whether the **widget\_one.js** file was
 successfully loaded by odoo or not by writing the console.log code as
 below.
 
-```
+```javascript
 console.log('hello world !');
 ```
 
@@ -54,7 +54,7 @@ template that inherit to the **web.assets\_backend** template, then
 write the code to load the **widget\_one.js** file that we created
 earlier like in the code below.
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
@@ -97,7 +97,7 @@ format is the name of the module followed by any text.
 The second argument is a function where our's widget code should be
 written.
 
-```
+```javascript
 odoo.define('tutorial_javascript.widget_one', function (require) {
 "use strict";
 
@@ -110,7 +110,7 @@ All widgets must extend to **AbstractField** object or its child. It
 also must be added to the **field\_registry** object. So let's import
 those two objects first.
 
-```
+```javascript
 odoo.define('tutorial_javascript.widget_one', function (require) {
 "use strict";
 
@@ -142,7 +142,7 @@ code will be discussed at another time if I have the opportunity.
 To create a template, first, create an xml file then write code like the
 code below.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <template>
 
@@ -177,7 +177,7 @@ of the **\_\_manifest\_\_.py** file will look like below.
 Then we just need to write the actual widget code. Please read the code
 below and pay attention to the comments section.
 
-```
+```javascript
 odoo.define('tutorial_javascript.widget_one', function (require) {
 "use strict";
     // import the required object to create a widget
@@ -207,7 +207,7 @@ odoo.define('tutorial_javascript.widget_one', function (require) {
 Then we can directly use the widget that we have created in the odoo
 xml/view file using the code as below.
 
-```
+```xml
 <record id="tutorial_javascript_form" model="ir.ui.view">
     <field name="name">tutorial.javascript.form</field>
     <field name="model">tutorial.javascript</field>
@@ -234,7 +234,7 @@ fill the field value so the **readonly** example view mode in this
 tutorial can be seen. You can change it via the database or give the
 field a default value like in the code below.
 
-```
+```python
 field_one = fields.Integer('Field One', default=1)
 ```
 
