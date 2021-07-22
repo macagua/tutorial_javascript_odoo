@@ -16,11 +16,11 @@ There are some Addon Screenshots:
 
 ### Widget Logic - Part Two
 
-![Widget Logic - Part Two](./part-two/static/description/odoo_widget_with_thousand_divider.png "Widget Logic - Part Two")
+![Widget Logic - Part Two](./part-two/tutorial_javascript_odoo/static/description/odoo_widget_with_thousand_divider.png "Widget Logic - Part Two")
 
 ### Use of jQuery - Part Three
 
-![Use of jQuery - Part Three](./part-three/static/description/odoo_custom_widget_add_field.png "Use of jQuery - Part Three")
+![Use of jQuery - Part Three](./part-three/tutorial_javascript_odoo/static/description/odoo_custom_widget_add_field.png "Use of jQuery - Part Three")
 
 ## Copyright
 
